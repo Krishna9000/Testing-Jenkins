@@ -12,4 +12,9 @@ public class HomeController {
     public String testCall(){
         return "Success";
     }
+
+    @GetMapping("/jenkins")
+    public String testJenkins(){
+        return "Jenkins";
+    }
 }
